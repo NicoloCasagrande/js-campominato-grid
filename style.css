@@ -9,4 +9,44 @@
 body{
     height: 100vh;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    background-color: white;
+    height: 4.375rem;
+    line-height: 4.375rem;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    height: 31.25rem;
+    width: 31.25rem;
+    background-color: white;
+}
+
+.board__number{
+    height: 3.125rem;
+    line-height: 3.125rem;
+    text-align: center;
+}
+
+.selected{
+    background-color: white;
 }
