@@ -11,12 +11,20 @@ body{
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, footer{
     background-color: white;
     height: 4.375rem;
     line-height: 4.375rem;
+    padding: 0 1rem;
+}
+
+header img{
+    height: 4.375rem;
+    width: 4.375rem;
+    margin-right: 1rem;
 }
 
 main{
