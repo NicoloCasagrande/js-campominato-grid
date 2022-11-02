@@ -38,14 +38,28 @@ main{
     justify-content: center;
     height: 31.25rem;
     width: 31.25rem;
-    background-color: white;
 }
 
 .board__number{
-    height: 3.125rem;
     line-height: 3.125rem;
     text-align: center;
+    border: 1px solid black;
 }
+
+/* .easy-board-number{
+    width: calc(100%/10);
+    height: calc(100%/10);
+}
+
+.medium-board-number{
+    width: calc(100%/9);
+    height: calc(100%/9);
+}
+
+.hard-board-number{
+    width: calc(100%/7);
+    height: calc(100%/7);
+} */
 
 .selected{
     background-color: white;
